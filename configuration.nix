@@ -79,6 +79,8 @@
     name = "iqn.2016-04.com.open-iscsi:${meta.hostname}";
   };
 
+  services.qemuGuest.enable = true;
+
   # Enable CUPS to print documents.
   # services.printing.enable = true;
 
